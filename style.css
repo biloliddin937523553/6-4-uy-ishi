@@ -1,0 +1,26 @@
+ul li{
+    background: green;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 260px;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+}
+ul li h2{
+    font-size: 18px;
+    width: 270px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -50px;
+}
+body{
+    font-family: sans-serif;
+}
